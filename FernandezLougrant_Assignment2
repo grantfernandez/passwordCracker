@@ -1,5 +1,0 @@
-def testPass(CryptPass):
-    salt = CryptPass[0:2]
-    dictionary = open(dictonary.txt, 'r')
-    for word in dictionary.readlines():
-        word = word.split('\n')
