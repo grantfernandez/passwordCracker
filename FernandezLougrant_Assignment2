@@ -1,3 +1,6 @@
+Import crypt
+
+
 def passwordCheck(cryptedPassword):
     salt = cryptedPassword[0:2]
     dictionary = open(dictonary.txt, 'r')
